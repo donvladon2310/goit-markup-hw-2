@@ -37,8 +37,8 @@ body {
     color: var(--primary-text-color)
     text-decoration: none;
 }
-.nav-list .link :hover
-.nav-list .link :focus {
+.nav-list:hover
+.nav-list:focus {
     color: var(--accent-color);
 }
 /*Contact*/
@@ -84,7 +84,9 @@ letter-spacing: 0.06em;
 color: #FFFFFF ;
 background-color: var(--accent-color);
 }
-
+.hero-button{
+    cursor: pointer;
+}
 /*features*/
 
 .features-link {
@@ -217,6 +219,9 @@ letter-spacing: 0.03em;
 color: #212121;
 background-color: #F5F4FA;
 text-decoration: none;
+}
+.filter-button{
+    cursor: pointer;
 }
 .portfolio-item{
 font-style: normal;
